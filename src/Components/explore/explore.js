@@ -6,6 +6,7 @@ import like from './like.svg'
 import data from './explore.json'
 //import Skeleton from "react-loading-skeleton";
 import Skeleton from "react-loading-skeleton";
+import { Link } from "react-router-dom"
 
 export default class explore extends  Component{
  
@@ -23,17 +24,17 @@ export default class explore extends  Component{
    
 
     render(){
-        const detail = this.state
+  
         return(
             <div  className="main content explore-body">
                 <nav className="nav nav-pills explore-nav">
-                    <a className="explore-nav-link" href="#">Recommended For You</a>
-                    <a className="explore-nav-link" href="#">Trending</a>
-                    <a className="explore-nav-link" href="#">Oil Painting</a>
-                    <a className="explore-nav-link" href="#">Digital Art</a>
-                    <a className="explore-nav-link" href="#">Acrylic Painting</a>
-                    <a className="explore-nav-link" href="#">Ceramics</a>
-                    <a className="explore-nav-link" href="#">Pastel Art</a>
+                    <Link className="explore-nav-link" to="#!">Recommended For You</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
+                    <Link className="explore-nav-link" to="#!">Trending</Link>
                 </nav>
            
            

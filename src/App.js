@@ -22,10 +22,10 @@ import ArtistMain from "./Components/artist/ArtistMain/ArtistMain.component";
 import ArtWorkMain from "./Components/artist/ArtistMain/ArtWork/ArtWorkMain/ArtWorkMain.component";
 
 // IMPORTING REACT ROUTER DOM
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {  Switch, Route } from "react-router-dom";
 
 // IMPORTING FROM REACT ROUTER
-import { Redirect } from "react-router-dom";
+//import { Redirect } from "react-router-dom";
 
 class App extends React.Component {
   render() {

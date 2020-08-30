@@ -20,9 +20,9 @@ class Navbar extends React.Component {
       <div>
         <div className="sidebar">
           <div className="sidebar-logo">
-            <a href="#" className="logo-icon">
+            <span className="logo-icon">
               <img src="/images/qrate logo1-02 2.png" alt="" />
-            </a>
+            </span>
           </div>
           <div className="sidebar-properties  pt-2">
             <NavLink
