@@ -25,6 +25,21 @@ export default class exhibition extends Component{
         </div>
         </div>
         </div>
+        <section className="upcoming-vids">
+          <div className="seeAll">
+            <span className="">Upcoming</span>
+            <span className="float-right"><a href="">See all <i className="fa fa-arrow-right" aria-hidden="true"></i></a></span>
+          </div>
+
+          <div className="row container-fluid  mx-auto">
+            <div className="col-md-3 pl-0 pr-0 ">
+              <img src="images/placeholder.svg" alt="" className="img-fluid"></img>
+            </div>
+            <div className="col-md-4 bg-info "></div>
+            <div className="col-md-4 bg-info"></div>
+          </div>
+
+        </section>
       
    
             </div>

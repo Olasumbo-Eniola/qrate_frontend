@@ -5,6 +5,7 @@ import like from './like.svg'
 //import isLiked from './isLiked.svg'
 import data from './explore.json'
 //import Skeleton from "react-loading-skeleton";
+import Skeleton from "react-loading-skeleton";
 
 export default class explore extends  Component{
  
@@ -40,7 +41,9 @@ export default class explore extends  Component{
                    {
                        data.map((detail) => (
                            <div  className="card" key={detail.id}>
-                               <img src={detail.imgSrc} className="card-img-top"></img>
+                                         {(
+              <img src={detail.imgSrc} alt="" className="card-img-top" />
+            ) || <Skeleton height={254} /> }
                                <div className={detail.class}>
                                <div className="explore-user-detail">
                                <img src={detail.authorImg}></img><span className="explore-username">{detail.authorName}</span> <input className="follow" value="Follow" type="button" ></input>
