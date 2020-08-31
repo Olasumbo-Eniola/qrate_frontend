@@ -22,7 +22,7 @@ export default class exhibition extends Component{
           <img src="images/live.svg" alt=""/>  Live
         </div>
         <div className=" button">
-          <div className=""><button className="btn watch">Watch Live Video</button></div>
+          <div className=""><Link to="./exhibition/exhibitionVideo" className="btn watch">Watch Live Video</Link></div>
           <div className=""><button className="btn watch-later">Watch In 3D</button></div>
         </div>
         </div>
@@ -72,7 +72,7 @@ export default class exhibition extends Component{
            <div className="">
              <small className="exhibition-tag">Recent</small>
              <h3 className="exhibition-name">The Nigerian Art Festival 2020</h3>
-             <smal className="exhibition-time text-white">25th Feb. - 28th Mar. 2020</smal>
+             <small className="exhibition-time text-white">25th Feb. - 28th Mar. 2020</small>
              <p className="recent-exhibition-caption">
              The 2020 edition of the Nigerian Art Festival took place on the 25th February - 28th March 2020. It featured state of the art exhibitions from artists all over the world. This retrospective took us from Krasner’s earliest,
               highly accomplished student works to the very end, in an elegantly designed exhibition that was filled with surprises and troubles...
@@ -95,7 +95,7 @@ export default class exhibition extends Component{
              The 2020 edition of the Nigerian Art Festival took place on the 25th February - 28th March 2020. It featured state of the art exhibitions from artists all over the world. This retrospective took us from Krasner’s earliest,
               highly accomplished student works to the very end, in an elegantly designed exhibition that was filled with surprises and troubles...
              </p>
-             <Link to="#!" className="doc">Read the full documentation</Link>
+             <Link to="#" className="doc">Read the full documentation</Link>
            </div>
          </div>
          </div>
