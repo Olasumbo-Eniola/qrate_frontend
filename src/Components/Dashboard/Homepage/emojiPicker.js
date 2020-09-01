@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Picker from 'emoji-picker-react';
+//import Picker from 'emoji-picker-react';
  
 const EmojiPicker = () => {
   const [chosenEmoji, setChosenEmoji] = useState(null);
@@ -14,7 +14,7 @@ const EmojiPicker = () => {
         <span>You chose: {chosenEmoji.emoji}</span>
       ) : ''}
       <div>
-        <Picker onEmojiClick={onEmojiClick} />
+        {/*<Picker onEmojiClick={onEmojiClick} />*/}
       </div>
       
     </>
