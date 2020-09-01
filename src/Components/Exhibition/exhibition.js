@@ -82,6 +82,7 @@ export default class exhibition extends Component{
          </div>
          </div>
 
+
          <div className="row container-fluid mx-auto recent-exhibitions pl-0 pr-0">
            <div className="col-md-6 pl-0 pr-0 recent">
              <img src="images/placeholder-two.png" alt="" className="recent-img " style={{width: "100%"}}></img>
