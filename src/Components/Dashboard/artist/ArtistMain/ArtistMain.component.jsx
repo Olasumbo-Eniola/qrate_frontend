@@ -40,7 +40,7 @@ class ArtistMain extends Component {
         return (
        
             <div className='main content blo'>
-                <div className='artistMain container-fluid'>
+                <div className='artistMain container'>
                     <Link to='/artist'>
                         <i className="fas fa-arrow-left arrow-left"></i>
                     </Link>
@@ -70,7 +70,8 @@ class ArtistMain extends Component {
                     </div>
 
                     <div className='dropdown-container'>
-                        <Drop placeholder='Sort By'/>
+                        <Drop placeholder='Filter by size, color'/>
+                        <Drop placeholder='Filter by price'/>
                     </div>
 
                     <div className='artistWorks'>

@@ -90,14 +90,14 @@ class ArtWorkMain extends Component {
         })
        
         return(
-            <div className='main'>
-                <div className='artwork-main content'>
+            <div className='main content'>
+                <div className='artwork-main'>
                     <div className='banner'>
                         <Link to={`/artist/${artistId}`}>
                             <i className="fas fa-arrow-left arrow-left"></i>
                         </Link>
 
-                        <div className='banner-content'>
+                        <div className='content'>
                             <div className='left'>
                                 <h4>{work.name}</h4>
                                 <p>by {work.artist}</p>
@@ -109,7 +109,7 @@ class ArtWorkMain extends Component {
                                     <p> '{work.name}' artwork by {work.artist} was added to your cart </p>
 
                                     <div className='buttons'>
-                                        <Button text='Continue' click={() => this.hideModal('cartModal')}/>
+                                        <Button text='Continue'/>
                                         <Button text='View cart and checkout'/>
                                     </div>
                                 </Modal>
@@ -117,9 +117,9 @@ class ArtWorkMain extends Component {
                                 <Button inverted  text='ADD TO CART' click={() => this.showModal('cartModal')}/>
 
                                 <div className='options'>
-                                    <i className="far fa-comment mr-3"></i>
-                                    <i className="fas fa-share-alt mr-3"></i>
-                                    <i className="far fa-heart mr-3"></i>
+                                    <i class="far fa-comment"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                    <i class="far fa-heart"></i>
                                 </div>
                             </div>
 
@@ -169,7 +169,7 @@ class ArtWorkMain extends Component {
                             </div>
 
                             <div className='buttons'>
-                                <Button text='CANCEL' cancel click={() => this.hideModal('catalogueModal')}/>
+                                <Button text='CANCEL' cancel/>
                                 <Button text='SAVE'/>
                             </div>
                         </Modal>
@@ -182,7 +182,7 @@ class ArtWorkMain extends Component {
                                 <div>
                                     <textarea type='text' placeholder='Write a comment'/>
                                     <Button inverted>
-                                        <i className="fas fa-paper-plane"></i>
+                                        <i class="fas fa-paper-plane"></i>
                                     </Button>
                                 </div>
                             </div>

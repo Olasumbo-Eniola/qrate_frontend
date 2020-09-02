@@ -7,10 +7,7 @@ import artistData from "./artistData";
 import ArtistCollection from "./ArtistCollection/ArtistCollection.component";
 
 // Importing Input
-import Input from "../Shared/Input/Input";
-import MainWrapper from "../Shared/MainWrapper";
-
-// import {Pagination} from '../GeneralComp/Pagination/Pagination';
+import Input from "../GeneralComp/Input/Input";
 
 //importing style
 import "./artist.css";
@@ -42,8 +39,8 @@ class artist extends Component {
     });
 
     return (
-      <MainWrapper className="">
-        <div className="artist container-fluid">
+      <div className="main">
+        <div className="artist content">
           <h2>Artists</h2>
 
           <div className="page-description">
@@ -59,10 +56,8 @@ class artist extends Component {
           </div>
 
           <ArtistCollection artists={filteredArtists} />
-
-          {/* <Pagination /> */}
         </div>
-      </MainWrapper>
+      </div>
     );
   }
 }

@@ -17,7 +17,7 @@ const Comment = () => {
                     <p>Nice work Jackson!</p>
                 </div>
                 <div className='like'>
-                <i className="fas fa-heart fill"></i>
+                <i class="fas fa-heart fill"></i>
                 <i className="far fa-heart empty"></i>
                 </div>
             </div>
