@@ -1,5 +1,5 @@
 import React from "react";
-import "./ToggleSlider.scss";
+//import "./ToggleSlider.scss";
 export function ToggleSlider({ id }) {
   return (
     <div class="custom--checkbox">

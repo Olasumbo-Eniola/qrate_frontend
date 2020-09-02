@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import MainWrapper from "../Shared/MainWrapper";
 import { RightRadioButton } from "../Shared/Button/RadioButton";
 
-import "./Settings.scss";
+//import "./Settings.scss";
 import { Switch, Route } from "react-router-dom";
 
 // IMPORTING CSS

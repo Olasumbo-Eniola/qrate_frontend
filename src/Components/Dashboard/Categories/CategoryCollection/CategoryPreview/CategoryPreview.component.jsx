@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 
-import "./CategoryPreview.style.scss";
+//import "./CategoryPreview.style.scss";
 
 const CategoryPreview = ({ work }) => {
     return (

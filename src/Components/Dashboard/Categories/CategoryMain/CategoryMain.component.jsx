@@ -8,7 +8,7 @@ import Input from "../../Shared/Input/Input.js";
 
 import { Link } from "react-router-dom";
 
-import "./CategoryMain.style.scss";
+//import "./CategoryMain.style.scss";
 
 class categoryMain extends Component {
   constructor(props) {

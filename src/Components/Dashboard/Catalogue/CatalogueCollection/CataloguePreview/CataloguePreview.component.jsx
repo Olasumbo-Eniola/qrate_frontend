@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 
-import "./CataloguePreview.style.scss";
+//import "./CataloguePreview.style.scss";
 
 const CataloguePreview = ({ work }) => {
     return (

@@ -14,9 +14,6 @@ body {
   color: #f7931e !important;
   fill: #f7931e !important;
 }
-.bg-grey {
-  background: #f8f8f8 !important;
-}
 .sidebar {
   overflow: hidden;
   position: fixed;
@@ -62,6 +59,7 @@ body {
   text-align: center;
 }
 .sidebar-item {
+  
   width: -webkit-fill-available;
 }
 .sidebar-item:hover {
@@ -133,6 +131,7 @@ body {
   opacity: 0.6;
 }*/
 
+
 .icon-nav {
   padding-top: 20px;
   background: #ffffff;
@@ -172,23 +171,26 @@ body {
 }
 .content {
   margin-top: 100px;
-  min-height: 90vh;
 }
 
+
 @media only screen and (max-width: 1200px) {
+ 
   .icon-nav {
     width: 88%;
   }
   .icon-nav .nav-link {
     margin-right: 5px !important;
   }
+
+  
 }
 @media only screen and (min-width: 993px) {
-  .sidebar .navLink {
+  .sidebar .navLink{
     width: 100%;
     text-align: center !important;
   }
-  .sidebar-item {
+  .sidebar-item{
     margin: auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -206,7 +208,7 @@ body {
   .sidebar {
     display: inline;
   }
-
+  
   .sidebar-name {
     display: none;
   }
@@ -246,6 +248,7 @@ body {
   .sidebar-name {
     display: none;
   }
+  
 
   .icon-navbar {
     display: none;
@@ -315,11 +318,10 @@ body {
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
-
+  
   .sidebar-properties .navLink {
     margin-left: auto;
     margin-right: auto;
-    background: transparent;
   }
   /* .sidebar-properties *:hover {
     background: #f7921e70;

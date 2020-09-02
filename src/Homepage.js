@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 // Components
+/*
 import SecondHomepage from "./Components/Homepage/SecondHomepage";
 import ThirdHomepage from "./Components/Homepage/ThirdHomepage";
 import FourthHomepage from "./Components/Homepage/FourthHomepage";
@@ -61,3 +62,4 @@ const Homepage = () => {
 };
 
 export default Homepage;
+*/

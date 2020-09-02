@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Input.style.scss";
+//import "./Input.style.scss";
 
 const Input = ({ inputName, placeholder, onChange }) => {
   return (

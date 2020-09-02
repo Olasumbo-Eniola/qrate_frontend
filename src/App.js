@@ -16,9 +16,8 @@ import Settings from "./Components/Dashboard/Settings/Settings";
 import Exhibition from "./Components/Dashboard/Exhibition/exhibition";
 import Catalogue from "./Components/Dashboard/Catalogue/Catalogue.component";
 import UserProfile from "./Components/Dashboard/UserProfile/UserProfile";
-import Logout from "./Components/Dashboard/Logout/Logout";
-import Checkout from "./Components/Dashboard/Cart/Checkout";
-import Checkout2 from "./Components/Dashboard/Cart/Checkout2";
+//import Checkout from "./Components/Dashboard/Cart/Checkout";
+//import Checkout2 from "./Components/Dashboard/Cart/Checkout2";
 import ArtistMain from "./Components/Dashboard/artist/ArtistMain/ArtistMain.component";
 import ArtWorkMain from "./Components/Dashboard/artist/ArtistMain/ArtWork/ArtWorkMain/ArtWorkMain.component";
 
@@ -43,11 +42,11 @@ class App extends React.Component {
 
           <Route exact path="/home/cart" component={Cart} />
 
-          <Route exact path="/home/categories" component={Categories} />
+       <Route exact path="/home/categories" component={Categories} />
 
-          <Route exact path="/home/checkout" component={Checkout} />
+     {/*  <Route exact path="/home/checkout" component={Checkout} /> 
 
-          <Route exact path="/home/billing" component={Checkout2} />
+          <Route exact path="/home/billing" component={Checkout2} />*/}
 
           <Route path="/home/settings" component={Settings} />
 
@@ -55,8 +54,7 @@ class App extends React.Component {
 
           <Route exact path="/home/catalogue" component={Catalogue} />
 
-          <Route exact path="/home/logout" component={Logout} />
-
+    
           <Route exact path="/home/profile" component={UserProfile} />
 
           <Route exact path="/home/gallery" component={Gallery}></Route>

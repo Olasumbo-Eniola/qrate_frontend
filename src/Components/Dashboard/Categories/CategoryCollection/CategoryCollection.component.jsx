@@ -2,7 +2,7 @@ import React from 'react';
 
 import CategoryPreview from './CategoryPreview/CategoryPreview.component';
 
-import './CategoryCollection.style.scss';
+//import './CategoryCollection.style.scss';
 
 
 const CategoryCollection = ({category, seeAll}) => {
