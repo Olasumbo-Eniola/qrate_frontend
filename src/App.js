@@ -14,6 +14,7 @@ import Categories from "./Components/Dashboard/Categories/Categories.component";
 import CategoryMain from "./Components/Dashboard/Categories/CategoryMain/CategoryMain.component";
 import Settings from "./Components/Dashboard/Settings/Settings";
 import Exhibition from "./Components/Dashboard/Exhibition/exhibition";
+import Video from './Components/Dashboard/Exhibition/exhibitonVideo'
 import Catalogue from "./Components/Dashboard/Catalogue/Catalogue.component";
 import UserProfile from "./Components/Dashboard/UserProfile/UserProfile";
 //import Checkout from "./Components/Dashboard/Cart/Checkout";
@@ -60,6 +61,8 @@ class App extends React.Component {
           <Route exact path="/home/gallery" component={Gallery}></Route>
 
           <Route exact path="/home/exhibition" component={Exhibition}></Route>
+
+          <Route exact path="/home/exhibition/exhibitionVideo" component={Video}></Route>
 
           <Route
             path={`/home/gallery/:artgalleryid`}
